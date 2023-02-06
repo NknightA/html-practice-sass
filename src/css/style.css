@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+header {
+  background-color: #ff2200;
+  color: #000021;
+  display: flex;
+  padding: 1vh;
+}
+header #header-L {
+  width: 50%;
+}
+header #header-R {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+header ::selection {
+  background-color: rgba(0, 0, 255, 0.4666666667);
+}
+header button {
+  width: 100px;
+  height: 50px;
+  background-color: #ff2200;
+}
+header button:hover {
+  background-color: #000021;
+  color: #ff2200;
+}
+header button:active {
+  background-color: #ffcc11;
+  color: #000021;
+}
+
+body {
+  background-color: #000021;
+  color: #ff2200;
+}
+body div #terminal-like {
+  background-color: #000;
+  color: #00ff00;
+  height: 200px;
+  width: 100%;
+}
+body div #root {
+  margin: 2em;
+  padding: 2em;
+  background-color: rgba(255, 34, 0, 0.7333333333);
+  color: #000021;
+}
+body div ::selection {
+  background-color: rgba(255, 34, 0, 0.4666666667);
+}
+
+/*# sourceMappingURL=style.css.map */

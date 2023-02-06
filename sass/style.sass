@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap')
+$background-color-body: #000021
+$forground-color-body: #ff2200
+
+*
+  padding: 0
+  margin: 0
+  font-family: 'Roboto Mono', monospace
+
+header
+  background-color: #ff2200
+  color: #000021
+  display: flex
+  padding: 1vh
+  #header-L
+      width: 50%
+  #header-R
+      width: 50%
+      display: flex
+      justify-content: flex-end
+  ::selection
+    background-color: #0000ff77
+  button
+      width: 100px
+      height: 50px
+      background-color: #ff2200
+      &:hover
+        background-color: #000021
+        color: #ff2200
+      &:active
+        background-color: #ffcc11
+        color: #000021
+
+
+body
+  background-color: $background-color-body
+  color: $forground-color-body
+  div
+    #terminal-like
+      background-color: #000
+      color: #00ff00
+      height: 200px
+      width: 100%
+    #root
+      margin: 2em
+      padding: 2em
+      background-color: #ff2200bb
+      color: #000021
+    ::selection
+      background-color: #ff220077
